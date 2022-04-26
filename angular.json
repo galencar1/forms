@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "C:/Users/gabo_/Documents/Curso-Angular/forms/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
