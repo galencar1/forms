@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { TemplateFormComponent } from './template-form.component';
 import { FormDebugComponent } from '../form-debug/form-debug.component';
+import { CampoControleErroComponent } from '../campo-controle-erro/campo-controle-erro.component';
 
 
 
@@ -14,7 +15,8 @@ import { FormDebugComponent } from '../form-debug/form-debug.component';
 @NgModule({
   declarations: [
     TemplateFormComponent,
-    FormDebugComponent
+    FormDebugComponent,
+    CampoControleErroComponent
     
   ],
   imports: [

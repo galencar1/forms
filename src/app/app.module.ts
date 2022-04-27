@@ -17,6 +17,7 @@ import { TemplateFormModule } from './template-form/template-form.module';
     AppComponent,
     //TemplateFormComponent,
     DataFormComponent,
+
     
   ],
   imports: [
