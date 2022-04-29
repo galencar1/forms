@@ -36,7 +36,7 @@
 
             <input type="text" class="form-control" name="cep"
             id="cep" placeholder="CEP" ngModel required cep #cep="ngModel"
-            (blur)="consultaCEP($event.target)">
+            (blur)="consultaCEP($any($event.target).value, f)">
 
             <app-campo-controle-erro 
             [mostrarErro]="verificaValidTouched(cep)"
